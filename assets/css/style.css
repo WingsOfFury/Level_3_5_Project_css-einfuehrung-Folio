@@ -1,0 +1,86 @@
+/** ==================================
+            Assets  
+ 
+Farben: #042A5A, #F4C4C4, #282B29,
+#7D2222, #DEB873, #D2D2D2, #388883
+
+            Fonts
+     Schriften: Open Sans, Athene
+
+           Pictures
+      bg-marconatto, bg-nicole, blue_,
+      boa-cover, kathe-cover, letswork
+
+======================================= **/
+
+
+
+@font-face {
+    font-family: athene;
+    src: url("../fonts/Athene.otf");
+}
+
+
+body {
+    max-width: 1920px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/** ==============================
+                Header
+===================================**/
+
+
+header {
+    background-color: #DEB873;
+    height: 100vh;
+    width: 100vw;
+    block-size: border;
+
+}
+
+h1 {
+    font-size: 10rem;
+    font-family: athene;
+    
+
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+header section .sc20 p {
+    border-bottom: 0.1rem solid black;
+}
+
+
+header section .tempo h1{
+    margin-left: 20rem;
+
+
+}
+
+
+
+/** ==============================
+          Main Abschnitt 1
+===================================**/
+
+main {
+    background-color: #F4C4C4;
+    height: 150vh;
+    width: 100vw;
+}
