@@ -1,4 +1,4 @@
-/** ==================================
+/* *==================================
             Assets  
  
 Farben: #042A5A, #F4C4C4, #282B29,
@@ -11,7 +11,7 @@ Farben: #042A5A, #F4C4C4, #282B29,
       bg-marconatto, bg-nicole, blue_,
       boa-cover, kathe-cover, letswork
 
-======================================= **/
+=======================================**/
 
 
 
@@ -20,13 +20,15 @@ Farben: #042A5A, #F4C4C4, #282B29,
     src: url("../fonts/Athene.otf");
 }
 
-
-body {
-    max-width: 1920px;
-
+@font-face {
+    font-family: sans;
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
+
+
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,53 +36,415 @@ body {
 
 
 
-/** ==============================
+/**==============================
                 Header
 ===================================**/
 
 
+body {
+
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
+
+
+
 header {
-    background-color: #DEB873;
-    height: 100vh;
-    width: 100vw;
-    block-size: border;
 
+    background-color: #EFE8D7;
+    width: 100%;
+    height: auto;
 }
 
-h1 {
-    font-size: 10rem;
+
+header h1 {
+
     font-family: athene;
-    
+    color: #042A5A;
+    font-weight: 1;
 
 
 }
 
-section {
+.tempo h1:nth-of-type(1) {
+
+    padding-left: 8vw;
+    border-bottom: 0.1vw solid #042A5A;
+
+
+}
+
+
+
+.tempo h1:nth-of-type(2) {
+
+    padding-left: 14vw;
+    border-bottom: 0.1vw solid #042A5A;
+
+
+
+}
+
+
+
+.sc20 {
+
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    justify-content: space-evenly;
-}
-
-header section .sc20 p {
-    border-bottom: 0.1rem solid black;
-}
-
-
-header section .tempo h1{
-    margin-left: 20rem;
-
+    border-bottom: 0.1vw solid #042A5A;
+    padding: 1em 1em;
+    position: fixed;
+    width: 100%;
+    height: 4vh;
+    font-family: sans;
 
 }
+
+
+/* Hier fehlt das Font */
+
+.sc20 p:nth-of-type(1) {
+
+    margin-left: 8em;
+    font-size: 1.3em;
+
+
+}
+
+/* Hier fehlt das Font */
+
+.sc20 p:nth-of-type(2) {
+
+    margin-left: 74vw;
+    font-size: 1.3em;
+
+}
+
+
+section nav {
+
+    display: inline-block;
+    padding-top: 4vh;
+
+}
+
+
+.tempo h1 {
+
+    display: block;
+    padding-top: 7vh;
+    font-size: 314px;
+
+
+
+}
+
+
+
+
+.bildheader {
+
+    display: flex;
+    margin-left: 36vw;
+    padding-top: 4vh;
+    width: 500px;
+    height: 800px;
+
+
+
+
+}
+
+/* figure.bild h4 {
+
+    margin: 0.1vw
+} */
+
+
+.junge figcaption {
+
+    display: flex;
+    font-size: 1.3rem;
+    color: #042A5A;
+    font-weight: 1;
+    padding-left: 36vw;
+    margin-top: 2vw;
+    padding-bottom: 3vw;
+
+}
+
+
+
+
+.junge h3:nth-of-type(1) {
+
+    margin: 0.2vw;
+    font-family: athene;
+}
+
+/* Hier fehlt das Font */
+
+.junge h3:nth-of-type(3) {
+
+    margin: 0.1vw;
+
+
+    /* font-family: */
+    font-family: sans;
+}
+
+
+
+
+
+
+
+/* Hier fehlt das Font */
+
+/* figure.bild figcaption h4 {
+
+    display: inline-block;;
+    font-size: 1.5vh;
+    color: #042A5A;
+    font-weight: 1;
+    background-color: yellow;
+    margin: 0.1em;
+    padding-right: 15vw; */
+
+
+
+
+
+/* figure.bild h3 h4 {
+
+    
+    margin-left: 36vw;
+    margin-top: 10vh;
+    padding-bottom: 2vw;
+    background-color: green; 
+} */
+
+
+
 
 
 
 /** ==============================
-          Main Abschnitt 1
-===================================**/
+          Main Section Rosa
+=================================== **/
 
-main {
+
+main .rosa {
+
     background-color: #F4C4C4;
-    height: 150vh;
-    width: 100vw;
+    width: 100%;
+
+
+
+}
+
+
+main section .rosa {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+main section h2 {
+
+    font-family: athene;
+    font-size: 13vh;
+    font-weight: 1;
+
+
+}
+
+main .rosa div:nth-of-type(1) {
+
+    font-size: 1vh;
+    padding-left: 5vw;
+    padding-bottom: 1vw;
+    padding-top: 3vw;
+}
+
+
+/* Hier fehlt das Font */
+
+main section .textright p {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 1.2vh;
+    padding-left: 76vw;
+    padding-right: 7vw;
+    line-height: 1.3vw;
+    font-family: sans;
+
+
+
+}
+
+
+
+section .fourboxes div {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid black;
+    width: 700px;
+    height: 150px;
+    margin-left: 63vw;
+    font-family: sans;
+
+
+
+}
+
+
+section div .values p {
+
+
+    font-size: 14px;
+    text-align: right;
+    padding-top: 5.3rem;
+
+}
+
+
+
+section div .integrity p:nth-of-type(1) {
+
+    text-align: right;
+    width: 4rem;
+
+
+}
+
+
+
+section div .understanding p:nth-of-type(1) {
+
+    text-align: right;
+    width: 4rem;
+
+
+}
+
+
+
+section div .performance p:nth-of-type(1) {
+
+    text-align: right;
+    width: 4rem;
+
+
+}
+
+
+
+.letswork {
+
+    display: flex;
+    width: 100%;
+    height: 3rem;
+}
+
+
+.logo {
+
+    block-size: 6rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/** ==============================
+          Main Section 2
+=================================== **/
+
+
+.bronze {
+
+    background-color: #DEB873;
+    width: 100%;
+}
+
+
+
+
+
+main .works div:nth-of-type(1) {
+
+    font-size: 1vh;
+    padding-left: 5vw;
+    padding-bottom: 1vw;
+    padding-top: 3vw;
+}
+
+
+main section h2 {
+
+    font-family: athene;
+    font-size: 13vh;
+    font-weight: 1;
+    color: #7D2222;
+
+
+}
+
+
+main section .textleft p {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 1.2vh;
+    /* padding-left: 76vw; */
+    padding-right: 7vw;
+    line-height: 1.3vw;
+    font-family: sans;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** ==============================
+                Footer
+=================================== **/
+
+
+
+footer div {
+
+    background-color: #D2D2D2;
+    width: 100%;
 }
